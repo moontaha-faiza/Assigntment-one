@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700px;
+    color: #111111;
+}
+
+/* Heading & Banner Section Start */
+
+.banner {
+    background-image: url(../Assigntment-one/Images/rt.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.heading h1 {
+    font-size: 60px;
+    font-weight: 900px;
+    color: #f8fbfb;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.heading p {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #f8fbfb;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.link-button {
+    position: relative;
+}
+
+.link-button a {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #f8fbfb;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    position: absolute;
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Heading & Banner Section End */
+
+
+/* Donate Today Section Start */
+
+.donation-content {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.donation-content h2 {
+    text-align: center;
+}
+
+.donation-content p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #111111;
+    text-align: center;
+}
+
+.donation-container {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: 700;
+    color: #4f4848;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.donation-container span {
+    color: #ff5959;
+    border: 2px solid #ff5959;
+    padding: 20px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.plan-content {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.donation-container h3 {
+    justify-content: center;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.small p {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    color: #6e6565a0;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Donate Today Section End */
+
+
+/* Our Donate Plan Section Start */
+
+.plan-content h2 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.plan-content p {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #111111;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plan-container div {
+    padding: 62px 24px;
+    width: 360px;
+    height: auto;
+}
+
+.plan-container .food,.shelter {
+    margin-right: 24px;
+}
+
+.plan-container div img {
+    padding-bottom: 30px;
+}
+
+.plan-container div p, h3 {
+    text-align: left;
+}
+
+.plan-container div h3 {
+    font-size: 24px;
+    color: #121212;
+    font-weight: 700px;
+    padding-bottom: 28px;
+}
+
+.plan-container div p {
+    font-size: 16px;
+    color: #121212;
+    font-weight: 300px;
+}
+
+.plan-container .education {
+    background-color: #FFF4D6;
+}
+
+/* Our Donate Plan Section End */
+
+
+/* Card-Box Start */
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-one {
+    padding-bottom: 100px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box .left {
+    margin-right: 45px;
+}
+
+.box .right, .left {
+    text-align: left;
+    width: 50%;
+}
+
+.box-one .left {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-two .right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box h2 {
+    padding-bottom: 20px;
+}
+
+.box p {
+    padding-bottom: 35px;
+}
+
+.btn_2 {
+    position: relative;
+}
+
+.btn_2 a {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700px;
+    color: #f8fbfb;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.box p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #121212;
+}
+
+/* Card-Box End */
+
+
+/* Extra section Start */
+
+.image-container{
+    padding-top: 80px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container .container {
+    width: 33.33%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.container-1, .container-2{
+    margin-right: 20px;
+}
+
+.container h3{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #121212;
+    text-align: center;
+}
+
+.container p{
+    font-size: 16px;
+    font-weight: 300px;
+    color: #121212;
+    text-align: center;
+}
+
+
+/* Extra section End */
+
+
+/* Update Start */
+
+.update-content {
+    padding-top: 125px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-content h2 {
+    padding-bottom: 15px;
+}
+
+.update-content p {
+    padding-bottom: 55px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #121212;
+    text-align: center;
+}
+
+.update-content .newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+}
+
+.newsletter input {
+    background-color: #D9D9D9;
+    color: AA9F9F;
+    padding: 4px 10px;
+    width: 215px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 11px 10px;
+    margin-left: -8px;
+    background-color: #ff5959;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.newsletter button a {
+    color: #fff;
+}
+
+/* Update End */
+
+
+/* Footer Start */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #0B0D17;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.footer h2 {
+    padding-bottom: 28px;
+    color: #ff5959;
+}
+
+.footer-content h3{
+    font-size: 18px;
+    font-weight: 300px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer p {
+    padding-bottom: 28px;
+}
+
+/* Footer End */
